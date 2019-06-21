@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(240deg , blue , red);
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    border: none;
+    background-color: black;
+    color: #f4f4f4;
+    width: 5in;
+    height: 2em;
+}
+
+.form {
+    padding-top : 25px;
+}
